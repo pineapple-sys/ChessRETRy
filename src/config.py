@@ -6,14 +6,15 @@ SIZE = 50
 LIGHT = (240, 217, 181)
 DARK = (181, 136, 99)
 #chess game
-position = {
+white_start = {
     "white-king": "e1",
     "white-queen": "d1",
     "white-rook": "a1 h1",
     "white-bishop": "c1 f1",
     "white-knight": "b1 g1",
-    "white-pawn": "a2 b2 c2 d2 e2 f2 g2 h2",
-    
+    "white-pawn": "a2 b2 c2 d2 e2 f2 g2 h2"
+}
+black_start = {
     "black-king": "e8",
     "black-queen": "d8",
     "black-rook": "a8 h8",
